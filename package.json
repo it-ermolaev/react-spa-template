@@ -11,7 +11,7 @@
     "lint:fix": "npm run lint -- --fix",
     "preview": "vite preview",
     "stylelint": "stylelint \"src/**/*.{css,scss}\"",
-    "stylelint:fix": "stylelint --fix"
+    "stylelint:fix": "stylelint \"src/**/*.{css,scss}\" --fix"
   },
   "config": {
     "commitizen": {
